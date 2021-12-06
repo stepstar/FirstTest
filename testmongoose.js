@@ -14,4 +14,5 @@ kitty.save().then(() => console.log('testmeow'));
 const kitty1 = new Cat({name:"cat2",age:2,health:"so-so"});
 kitty1.save().then(() => console.log('new schema write'));
 */
-Cat.find({name:"cat2"},(error,data)=>{console.log(data)})
+Cat.find({name:"cat2"},(error,data)=>{console.log(data)});
+console.log(666);
